@@ -2,7 +2,7 @@
 
 #### _A web page to translate pig latin, 6-12-2019_
 
-#### _Authors: Alex Siegberg & Nate Wangemann
+#### _Authors: Alex Siegberg & Nate Wangemann_
 
 ## Description
 
@@ -11,6 +11,7 @@ _A translator for pig latin that takes in user inputted strings._
 ## Setup/Installation
 
 Step 1: Clone this repository to your desktop
+
 Step 2: Open index.html
 
 ## Specs
