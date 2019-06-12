@@ -16,33 +16,15 @@ Step 2: Open index.html
 
 ## Specs
 
-<!-- The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
-Example Input: 3
-Expected Output: 3
-
-The program adds "ay" to single-letter words beginning with a vowel.
-Example Input: i
-Expected Output: iay
-
-The program adds "way" to multiple-character words beginning with a vowel.
-Example Input: apple
-Expected Output: appleWay -->
-<!--
-For words that begin with a consonant, the program moves the consonant to the end and adds "ay"
-Example Input: tiger
-Expected Output: igerTay -->
-<!--
-For words beginning with "y", "y" is treated as a consonant
-Example Input: yellow
-Expected Output: ellowYay -->
-
-For words that begin with more than one consecutive consonant, the program moves all consecutive consonants to the end and adds "ay"
-Example Input: trampoline
-Expected Output: ampolineTray
-
-For words that contain "Qu", the program moves the "Q" and the "u" both to the end
-Example Input: squirrel
-Expected Output: irrelSquay
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3 | 3 |
+| The program adds "ay" to single-letter words beginning with a vowel. | i | iay |
+| The program adds "way" to multiple-character words beginning with a vowel. | apple | appleWay |
+| For words that begin with a consonant, the program moves the consonant to the end and adds "ay" | tiger | igerTay |
+| For words beginning with "y", "y" is treated as a consonant | yellow | ellowYay |
+| or words that begin with more than one consecutive consonant, the program moves all consecutive consonants to | trampoline | ampolineTray |
+| For words that contain "Qu", the program moves the "Q" and the "u" both to the end | squirrel | irrelSquay | 
 
 
 ## Licensing
